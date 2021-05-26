@@ -1,0 +1,138 @@
+<body>
+  <form id="form1">
+      <div class="divTable">
+             <div class="headRow">
+                <div class="divCell" align="center">Customer ID</div>
+                <div  class="divCell">Customer Name</div>
+                <div  class="divCell">Customer Address</div>
+             </div>
+            <div class="divRow">
+                  <div class="divCell">001</div>
+                <div class="divCell">002</div>
+                <div class="divCell">003</div>
+            </div>
+            <div class="divRow">
+                <div class="divCell">xxx</div>
+                <div class="divCell">yyy</div>
+                <div class="divCell">www</div>
+           </div>
+            <div class="divRow">
+                <div class="divCell">ttt</div>
+                <div class="divCell">uuu</div>
+                <div class="divCell">Mkkk</div>
+           </div>
+
+      </div>
+  </form>
+</body>
+
+<style type="text/css">
+    .divTable
+    {
+        display:  table;
+        width:auto;
+        background-color:#eee;
+        border:1px solid  #666666;
+        border-spacing:5px;
+
+    .divRow
+    {
+       display:table-row;
+       width:auto;
+    }
+
+    .divCell
+    {
+        float:left;
+        display:table-column;
+        width:200px;
+        background-color:#ccc;
+    }
+</style>
+
+    <DIV class="common_table">
+   <DIV><DIV>this is a cell</DIV></DIV>
+   <DIV><DIV>this is a cell</DIV></DIV>
+</DIV>
+    <layout-table>
+   <layout-header> 
+       <layout-column> 1 a</layout-column>
+       <layout-column>  </layout-column>
+       <layout-column> 3 </layout-column>
+       <layout-column> 4 </layout-column>
+   </layout-header>
+
+   <layout-row> 
+       <layout-column> a </layout-column>
+       <layout-column> a 1</layout-column>
+       <layout-column> a </layout-column>
+       <layout-column> a </layout-column>
+   </layout-row>
+
+   <layout-footer> 
+       <layout-column> 1 </layout-column>
+       <layout-column>  </layout-column>
+       <layout-column> 3 b</layout-column>
+       <layout-column> 4 </layout-column>
+   </layout-footer>
+</layout-table>
+
+
+css file
+.table {display:block; }
+.row { display:block;}
+.cell {display:inline-block;}
+    <h2>Table below using table element</h2>
+    <table cellspacing="0" >
+       <tr>
+          <td>Mike</td>
+          <td>36 years</td>
+          <td>Architect</td>
+       </tr>
+       <tr>
+          <td>Sunil</td>
+          <td>45 years</td>
+          <td>Vice President aas</td>
+       </tr>
+       <tr>
+          <td>Jason</td>
+          <td>27 years</td>
+          <td>Junior Developer</td>
+       </tr>
+    </table>
+    <h2>Table below is using Divs only</h2>
+    <div class="table">
+       <div class="row">
+          <div class="cell">
+             Mike
+          </div>
+          <div class="cell">
+             36 years
+          </div>
+          <div class="cell">
+             Architect
+          </div>
+       </div>
+       <div class="row">
+          <div class="cell">
+             Sunil
+          </div>
+          <div class="cell">
+             45 years
+          </div>
+          <div class="cell">
+             Vice President
+          </div>
+       </div>
+       <div class="row">
+          <div class="cell">
+             Jason
+          </div>
+          <div class="cell">
+             27 years
+          </div>
+          <div class="cell">
+             Junior Developer
+          </div>
+       </div>
+    </div>
