@@ -1,0 +1,36 @@
+<?php 
+
+echo "<h1>Associative Array</h1>";
+
+$a[0]=10;
+$a["c"]="computer";
+$a["php"]="Web developement";
+$a[4]="four";
+$a[5]=50.50;
+
+$a = array(
+	0 => 10,
+	"c" => "Cat",
+	"php" => "Web",
+	10 => "ten",
+	50 => 50.10,
+	);
+
+echo "C for ".$a['c'];
+
+foreach($a as $value){
+	echo "<br/>value is ".$value;
+}
+foreach($a as $key => $value){
+	echo "<br/>key is <b>$key</b> and value is <b>$value</b>";
+}
+
+echo "<pre>";
+print_r($a);
+echo "<pre>";
+echo "<pre>";
+var_dump($a);
+echo "<pre>";
+
+?>
+
